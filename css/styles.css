@@ -1,0 +1,185 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+/* Headings */
+
+.firstheading{
+  font-weight: 900;
+  font-size: 3.5em;
+  line-height: 1.5;
+  color: white;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* color sections */
+.white-section{
+  background-color: #fff;
+  color: black;
+}
+.color-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* Buttons */
+.dowload-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Navigation Bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+}
+
+
+/* title section */
+#title{
+  text-align: left;
+}
+
+#iphone{
+transform: rotate(25deg);
+width: 60%;
+position: absolute;
+left: 10%;
+}
+
+.container-fluid{
+padding: 3% 15% 5%;
+}
+
+/* Features section */
+
+#features{
+  position: relative;
+}
+
+.tit-features{
+  font-size: 2rem;
+  padding: 10px 10px;
+  line-height: 1.5;
+}
+
+.features{
+  padding: 150px;
+}
+
+.fig-features{
+  color: #ff4c68;
+  font-size: 3rem;
+}
+
+.fig-features:hover{
+  color: red;
+}
+
+.text-features{
+color: gray;
+width: 250px;
+height: 50px;
+margin: 0 auto;
+}
+
+/* Testimonials and press section */
+
+#press{
+  padding-bottom: 3%;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* pricing section */
+
+#pricing{
+  padding: 100px;
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-colum{
+  padding: 3% 2%;
+}
+
+/*  Call to Action  */
+
+#cta{
+  padding: 4% 10%;
+}
+
+.ctatext{
+  width: 70%;
+  margin: auto;
+}
+
+.headering{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* Footer */
+
+#footer{
+  padding: 4% 10% 0;
+}
+
+.footerimg{
+  padding: 5px 10px;
+  display: inline-block;
+  color: black;
+}
+
+/* media section responsive  */
+
+@media (max-width:1045px) {
+ #iphone{
+   text-align: center;
+   position: static;
+   transform: rotate(0);
+ }
+
+ #title{
+   text-align: center;
+ }
+}
